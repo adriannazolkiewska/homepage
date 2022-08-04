@@ -37,23 +37,21 @@ a {
 }
 
 .navigation {
-   background: #e8e9eb; 
-   display: block;
-   position: relative;
-   width: 250px;
-   height: 100px;
-   bottom: 0;
-   left: 1000px;
-   padding: 10px;
-   border-radius: 5px;
+  background: #e8e9eb;
+  position: flex;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+}
+.navigation__link {
+  text-decoration: unset;
 }
 
-
 .openWindow {
-  background: #d5d6d8; 
-   padding: 20px;
-   border-radius: 8px;
-   margin-bottom: 10px;
+  background: #d5d6d8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .photo {
@@ -63,11 +61,44 @@ a {
   margin: auto;
 }
 
-.środkowanie {
-  width: 300px;
-  height: 50px;
-  display: block;
-  margin: auto;
+.companyName {
+  text-align: center;
+  margin: 20px;
 }
 
-
+.first-color span {
+  color: #b8696d;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog .card {
+  background-color: rgb(214, 214, 214);
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.blog .card__title {
+  text-align: center;
+}
+.blog .card__image {
+  position: relative;
+}
+.blog .card__image .badge {
+  position: absolute;
+  right: 0;
+  background: #898952;
+}
+.card__description {
+  text-align: justify;
+}
+.notatki {
+  position: flex;
+  text-align: center;
+}
+.endedSpeak {
+  text-align: center;
+}

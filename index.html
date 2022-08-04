@@ -9,35 +9,87 @@
   </head>
 
   <body>
-    <header>
-      <div class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-        <a class="navigation__link navigation__link--ridingWear" href="nauka-html.html">Odzież jeździecka</a>
-        <a class="navigation__link navigation__link--forHorse" href="fotoOne.html">Dla konia</a>
-        <a class="navigation__link navigation__link--forDog" href="fotoTwo.html">Dla psa</a> 
-      </div>
-    </header>
-    <main> 
+    <div class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="nauka-html.html">O nas</a>
+      <a class="navigation__link" href="fotoOne.html">Kontakt</a>
+      <a class="navigation__link" href="fotoTwo.html">Galeria</a>
+    </div>
+    <main>
       <header>
-        <div class="środkowanie">
-      <h1 class="first-color">Adrianna Żółkiewska - Strona domowa</h1></div>
+        <div class="companyName">
+          <h1 class="first-color">DOG HOUSE</h1>
+        </div>
       </header>
-      <section>
-        <h2>Kim jestem ?</h2>
-        <img class="photo" src="2021-07-18 01.24.57 1.jpg" alt="Ja"/>
-        <p class="black-text">
-          Hej! Na co dzień uczę się trochę frontendu i pracuje w firmie.
-          <br />Witam Cię na mojej stronie domowej, mam nadzieję, że znajdziesz tu trochę przydatnych rzeczy.<b>
-            <a href="https://cotenfrontend.pl/">Tutaj</a></b>
-          znajdziesz więcej informacji. Możliwe jest również tworzenie notatek
-          <i><a href="#notatki">w tym miejscu.</a></i>
-        </p>
+      <section class="blog">
+        <div class="card">
+          <div class="card__title">
+            <h2>OBROŻE</h2>
+          </div>
+          <div class="card__image">
+            <div class="badge">Nowość</div>
+            <img class="photo" src="2021-07-18 01.24.57 1.jpg" alt="Ja" />
+          </div>
+          <div class="card__description">
+            <p class="black-text">
+              ZNAJDZIESZ TU TO CZEGO SZUKASZ
+              <br />Witam Cię na mojej stronie domowej, mam nadzieję, że
+              znajdziesz tu trochę przydatnych rzeczy.<b>
+                <a href="https://cotenfrontend.pl/">Tutaj</a></b
+              >
+              znajdziesz więcej informacji. Możliwe jest również tworzenie
+              notatek
+              <i><a href="#notatki">w tym miejscu.</a></i>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__title">
+            <h2>SMYCZE</h2>
+          </div>
+          <div class="card__image">
+            <img class="photo" src="2021-07-18 01.24.57 1.jpg" alt="Ja" />
+          </div>
+          <div class="card__description">
+            <p class="black-text">
+              Hej! Na co dzień uczę się trochę frontendu i pracuje w firmie.
+              <br />Witam Cię na mojej stronie domowej, mam nadzieję, że
+              znajdziesz tu trochę przydatnych rzeczy.<b>
+                <a href="https://cotenfrontend.pl/">Tutaj</a></b>
+              znajdziesz więcej informacji. Możliwe jest również tworzenie
+              notatek
+              <i><a href="#notatki">w tym miejscu.</a></i>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__title">
+            <h2>ZESTAWY</h2>
+          </div>
+          <div class="card__image">
+            <img class="photo" src="2021-07-18 01.24.57 1.jpg" alt="Ja" />
+          </div>
+          <div class="card__description">
+            <p class="black-text">
+              Hej! Na co dzień uczę się trochę frontendu i pracuje w firmie.
+              <br />Witam Cię na mojej stronie domowej, mam nadzieję, że
+              znajdziesz tu trochę przydatnych rzeczy.<b>
+                <a href="https://cotenfrontend.pl/">Tutaj</a></b
+              >
+              znajdziesz więcej informacji. Możliwe jest również tworzenie
+              notatek
+              <i><a href="#notatki">w tym miejscu.</a></i>
+            </p>
+          </div>
+        </div>
       </section>
       <section id="notatki">
-        <h2 class="first-color-header">Notatki z WTF: Co ten frontend</h2>
+        <div class="notatki">
+          <h2 class="first-color-header">Notatki z WTF: Co ten frontend</h2>
+        </div>
         <article class="openWindow">
           <h3 class="second-color">Jak stworzyć prawidłowego HTML-a?</h3>
-          <p class="black-text">
+          <p class="black-text"><br/>
             Tworzenie zgodnego ze standardem HTML-a to sztuka, którą do
             perfekcji opanowało niewielu.
           </p>
@@ -52,8 +104,10 @@
     </main>
 
     <footer>
-      Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia
-      szkolenia WTF: Co ten frontend. <a href="#top">Przesuń na górę</a>
+      <div class="endedSpeak">
+        Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia
+        szkolenia WTF: Co ten frontend. <a href="#top">Przesuń na górę</a>
+      </div>
     </footer>
     <script src="main.js"></script>
   </body>
